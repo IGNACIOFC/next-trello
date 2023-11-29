@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import logo from '../../public/logo.svg'
 
 import { siteConfig } from '@/config/site'
 
@@ -14,8 +15,8 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: [
     {
-      url: "/logo.svg",
-      href: "/logo.svg"
+      url: '/logo.svg',
+      href: '/logo.svg'
     }
   ]
 }
